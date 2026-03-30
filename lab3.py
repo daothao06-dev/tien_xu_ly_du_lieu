@@ -72,10 +72,10 @@ def bai4():
     sns.histplot(df4_minmax['gio_choi'], bins=20, ax=axes[1]).set_title('Min-Max')
     sns.histplot(df4_zscore['gio_choi'], bins=20, ax=axes[2]).set_title('Z-Score')
     plt.tight_layout()
-    plt.show()
+    plt.show() 
 
 if __name__ == "__main__":
     bai1()
-    # bai2()
-    # bai3()
-    # bai4()
+    bai2()
+    bai3()
+    bai4()
