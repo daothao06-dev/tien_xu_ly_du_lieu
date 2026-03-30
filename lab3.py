@@ -76,6 +76,6 @@ def bai4():
 
 if __name__ == "__main__":
     bai1()
-    bai2()
-    bai3()
-    bai4()
+    # bai2()
+    # bai3()
+    # bai4()
